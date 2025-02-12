@@ -39,7 +39,7 @@ export default function Project({
           alt="Project I worked on"
           width={1920}
           height={945}
-          className="w-full aspect-video rounded-t-lg shadow-2xl transition delay-100 ease-in-out group-hover:scale-110"
+          className="w-full object-fill aspect-video rounded-t-lg shadow-2xl transition delay-100 ease-in-out group-hover:scale-110"
         />
 
         <div className="pt-4 pb-7 px-5 sm:px-8 sm:pt-10 flex flex-col">
