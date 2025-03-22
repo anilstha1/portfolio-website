@@ -19,6 +19,10 @@ export const links = [
     hash: "#skills",
   },
   {
+    name: "Education",
+    hash: "#education",
+  },
+  {
     name: "Experience",
     hash: "#experience",
   },
@@ -36,6 +40,23 @@ export const experiencesData = [
       "I worked as a full stack developer at Krezona Tech for 3 months. I worked on edtraa (a learning management system) and Krezona Tech's website and many other projects.",
     icon: React.createElement(LuGraduationCap),
     date: "Jun 2024 - Sep 2024",
+  },
+] as const;
+
+export const educationData = [
+  {
+    college: "St. Xavier's College",
+    location: "Maitighar, Kathmandu",
+    description: "+2",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2021",
+  },
+  {
+    college: "Pulchowk Campus",
+    location: "Pulchowk, Lalitpur",
+    description: "Bachelor's in Computer Engineering",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - present",
   },
 ] as const;
 

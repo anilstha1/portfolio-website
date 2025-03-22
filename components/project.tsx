@@ -59,7 +59,7 @@ export default function Project({
           </ul>
         </div>
 
-        <div className="flex justify-between items-center px-8">
+        <div className="flex justify-between items-center px-5 sm:px-8">
           <Link
             href={githubLink}
             target="_blank"
